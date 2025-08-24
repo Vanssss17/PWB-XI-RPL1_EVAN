@@ -1,0 +1,57 @@
+.form-container {
+    max-width: 500px;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #d0f0ff, #a0d8ff);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+form input[type="text"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.option-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+input[type="submit"] {
+    background: #0288d1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background: #0277bd;
+}
+
+.form-header {
+    text-align: center; 
+    background: linear-gradient(90deg, #2193b0, #6dd5ed);
+    padding: 15px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2); 
+    margin-bottom: 20px; 
+    color: white;
+}
+
+
