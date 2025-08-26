@@ -49,3 +49,11 @@ ul, ol {
         font-size: 20px;
     }
 }
+
+ol li a {
+    text-decoration: none;
+}
+
+.tombol:hover {
+    text-decoration: underline;
+}
